@@ -1,0 +1,7 @@
+# f=open("life.txt","w")
+# f.write("my name is bhavna")
+# f.close()
+f=open("life.txt")
+data=f.read(100)
+print(data)
+f.close()

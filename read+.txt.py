@@ -1,0 +1,20 @@
+# f=open("read+.txt","r")
+# d=f.read()
+# print(d)
+
+# f=open("read+.txt","w")
+# f.write("hello")
+# f.close()
+
+# f=open("read+.txt","r")
+# # d=f.read()
+# # print(d)
+# f.readline()
+# # f.write("i am from MP")
+# f.close()
+
+f=open("read+.txt","w+")
+f.write("i am from MP")
+d=f.read()
+print(d)
+f.close()

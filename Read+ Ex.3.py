@@ -1,0 +1,20 @@
+# f = open("student.txt",mode="r+")
+# data = f.read()
+# f.write("were are you")
+# # print(data)
+
+# f=open("student.txt","w+")
+# f.write("asdfghjkl;")
+# d=f.read()
+# print(d)
+# f.close()
+
+
+f = open("student.txt",mode="r+")
+print(f.tell())
+data=f.read()
+print(f.tell())
+f.write("were are you")
+print(f.tell())
+print(data)
+print(f.tell())

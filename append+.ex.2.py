@@ -1,0 +1,7 @@
+f=open("student.txt",mode="a+")
+print(f.tell())
+f.write("youtube")
+print(f.tell())
+data=f.read()
+print(f.tell())
+print(data)
